@@ -232,6 +232,11 @@ article.active {
   text-transform: capitalize;
 }
 
+.h55 {
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
 .h2 { font-size: var(--fs-1); }
 
 .h3 { font-size: var(--fs-2); }
@@ -247,6 +252,13 @@ article.active {
   position: relative;
   padding-bottom: 7px;
 }
+
+.skill-title {
+  color: #c18c00;
+    font-size: var(--fs-7);
+  font-weight: var(--fw-500);
+}
+
 
 .article-title::after {
   content: "";
@@ -550,10 +562,11 @@ main {
 
 .service-content-box { text-align: center; }
 
-.service-item-title { margin-bottom: 7px; }
+.service-item-title {   color: #c18c00;
+  margin-bottom: 7px; }
 
 .service-item-text {
-  color: var(--light-gray);
+  color: #FFFFFF;
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
@@ -853,7 +866,7 @@ main {
 }
 
 .skill .title-wrapper data {
-  color: var(--light-gray);
+  color: #c18c00;
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
@@ -1014,7 +1027,7 @@ main {
 .project-item > a:hover img { transform: scale(1.1); }
 
 .project-title,
-.project-category { margin-left: 10px; }
+.project-category { margin-left: 10px; font-weight: bold;}
 
 .project-title {
   color: var(--white-2);
